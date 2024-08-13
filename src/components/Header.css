@@ -1,0 +1,161 @@
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white; 
+    color: black;
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    position: relative;
+  }
+  
+  /* Logo styling */
+  .logo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    list-style: none;
+  }
+  .logo-link {
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+ .nav-item1{
+    display: flex;
+    text-decoration: none;
+    padding: 33px;
+   padding-top: 20px;
+   margin: 0 10px;
+   color: #3498db;
+    
+ }
+  
+  /* Search bar styling */
+  .search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    max-width: 750px;
+    height: 40px; 
+    position: relative; 
+  }
+  
+  /* Input field within search bar */
+  .search-bar input {
+    flex: 1;
+    padding: 10px 15px 10px 40px; 
+    border: 1px solid black; 
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    height: 100%; 
+    text-align: center; 
+  }
+  
+  /* Placeholder text styling */
+  .search-bar input::placeholder {
+    color: gray; 
+    opacity: 1; 
+  }
+  
+  /* Search icon styling */
+  .search-bar .search-icon {
+    position: absolute; 
+    left: 10px; 
+    background-color: white; 
+    border: none;
+    border-radius: 50%;
+    color: gray; 
+    padding: 10px;
+    cursor: pointer;
+    height: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  /* Search icon hover effect */
+  .search-bar .search-icon:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+  }
+  
+  /* Navigation menu styling */
+  .nav-menu {
+    display: flex;
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    align-items: center; /* Align items vertically */
+  }
+  
+  /* Navigation item styling */
+  .nav-item {
+    text-decoration: none; /* Remove underline */
+    color: #3498db; /* Default color */
+    font-size: 18px; /* Font size */
+    padding: 10px; /* Padding */
+    display: block; /* Block-level */
+    transition: color 0.3s ease; /* Color transition */
+  }
+  
+  /* Navigation item hover effect */
+  .nav-item:hover {
+    color: #2980b9; /* Hover color */
+  }
+  
+  /* Navigation link styling */
+  .nav-link {
+    text-decoration: none; /* Remove underline */
+    color: #2c3e50; /* Default color */
+    font-size: 24px; /* Font size */
+    margin: 0 10px; /* Margin for spacing */
+  }
+  
+  /* Navigation link hover effect */
+  .nav-link:hover {
+    color: #34495e; /* Hover color */
+  }
+  
+  /* Login button styling */
+  .login {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: 2px solid black; /* Black border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 18px 20px; /* Padding */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 0 10px; /* Margin for spacing */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition effect */
+  }
+  
+  /* Sign Up button styling */
+  .signup {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    border: 2px solid black; /* Black border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 18px 20px; /* Padding */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 0 10px; /* Margin for spacing */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition effect */
+  }
+  .btn{
+    padding: 10px 15px;
+  }
+  
+  /* Button hover effects */
+  .login:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
+  .signup:hover {
+    background-color: #333; /* Darker black on hover */
+  }
+  

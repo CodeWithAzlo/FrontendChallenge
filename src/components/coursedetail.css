@@ -1,0 +1,63 @@
+.course-detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*here add how bg color do you want to set lead */
+    /* i set as deafault white because its looks descent*/
+  }
+  .course-info {
+    flex: 1;
+    padding-right: 20px;
+  }
+  .course-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .course-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  .course-card {
+    flex-basis: 40%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+    max-width: 400px;
+  }
+  .course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+  }  
+  
+  .course-card .chakra-button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(131, 63, 131); 
+    color: white;
+  }
+  .course-card .chakra-button:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+  }
+
+  .course-card .chakra-badge {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .course-card .chakra-text {
+    font-size: 20px;
+  }
+    

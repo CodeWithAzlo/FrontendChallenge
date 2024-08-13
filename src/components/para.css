@@ -1,0 +1,37 @@
+.Card{
+    width: 90%;
+    margin-left: 40px;
+    padding: 18px ;
+  
+}
+.first-head{
+    width: 70%;
+   
+}
+.heading-1{
+    text-align: left;
+    margin-left: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first-para{
+    text-align: left;
+    margin-left: 35px;
+    font-size: 20px;
+
+}
+
+
+.first-btn{
+   margin-left: 40px;
+    background-color: white;
+    color: black;
+    width: 160px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.first-btn:hover{
+    background-color: rgb(217, 213, 213);
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+}

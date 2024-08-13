@@ -1,0 +1,30 @@
+.leftbtn{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.rightbtn{
+    background-color: white;
+    color: black;
+    width: 45%; 
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.rightbtn:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+.leftbtn:hover{
+    background-color: rgb(59, 55, 55);
+    color: white;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
